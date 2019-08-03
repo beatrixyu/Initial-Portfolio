@@ -4,8 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Bea Blome - the Digital Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
 
     <!-- title shortcut picture -->
     <link href="img/profilecartoon2.jpg" rel="shortcut icon" type="image/x-icon">
@@ -14,12 +26,6 @@
 <!-- header part -->
 <header>
 
-    <div class="logo">
-        <a href="">
-            <div class="logo-icon">BB</div>
-            <div class="logo-text">Beatrix Blome</div>
-        </a>
-    </div>
 
     <nav class="backlink">
         <ul>
@@ -28,6 +34,15 @@
         </ul>
     </nav>
 
+                <div class="logo">
+                    <a href="">
+                        <!-- <div class="logo-icon">BB</div> -->
+                        <img src="./img/profilecartoon2.jpg" alt="" id="logo-img">
+                        <div class="logo-text">Beatrix Blome</div>
+                    </a>
+                </div>
+
+
     <!-- nav>ul>li*2>a>lorem1 -->
     <nav>
         <ul>
@@ -35,6 +50,8 @@
             <li><a href="https://www.xing.com/profile/BeatrixM_Blome/cv?sc_o=mxb_p" target="_blank">Xing</a></li>
         </ul>
     </nav>
+
+
 </header>
 
 <!-- body part -->
@@ -44,18 +61,31 @@
         <!-- <img src="img/background picture2.jpg"   class="profilebackground"> -->
 
         <article class="profile1">
+            <img src="./img/topimg3.gif" class="workhardImg"/>
             <div class="workhard">
-                <h1>Work Hard</h1>
-                <h3>{ E-commerce, Digital and Online Marketing }</h3>
+                <h2>Work Hard</h2>
+                <h5>{ Digital }
+                    <br>
+                    { E-commerce }
+                    <br>
+                    { Online Marketing }</h5>
             </div>
         </article>
 
         <article class="profile2">
             <div class="playhard">
-                <h1>Play Hard</h1>
-                <div><h3>{ Gliding and Outdoors }</h3></div>
+                <h2>Play Hard</h2>
+                <div><h5>{ Hiking }
+                    <br>
+                    { Gliding }
+                    <br>
+                   { Outdoors }</h5></div>
+                        <div class="overlay">
                 <img src="img/glider.jpg" class="gliderpic">
+                </div>
             </div>
+            <img src="./img/topimg4.gif" class="playhardImg" />
+
         </article>
     </section>
 
@@ -63,7 +93,7 @@
         <img src="img/profilecartoonfinal.jpg" class="profilecartoonimg">
         <img src="img/profilepic.jpg" class="profilepic">
     </section>
-    <section class="personalstatement">
+    <section id="personalstatement">
         <h2>Hey, I'm Bea!</h2>
         <h2>I'm a creative, self-motivative digital player. </h2>
         <h2>I have worked in the online and digital world for 5 years.
@@ -75,39 +105,39 @@
     <!-- experience section -->
     <section id="experience">
 
-        <div class="ex2013">
-            <h1>
+        <section class="ex2013" >
+            <h3>
                 2013: First time touching online and digital marketing
-            </h1>
-        </div>
+            </h3>
+        </section>
 
         <section class="experienceright">
             <div class="ex2015">
-                <h1>
-                    2015: Lost Job. Tried different online projects as partnership but failed
-                    <p  class="hidden">{Online E-Learning school, Big Data Analysis, Online Trading}</p>
-                </h1>
+                <h3>
+                    2015: Bagin Projects: Big Data Analysis, Online Shop, Online E-Learning school 
+                </h3>
             </div>
          
         </section>
         <section class="experienceleft">
             <div class="ex2016">
-                <h1>
+                <h3>
                     2016: Online marketing projects on Chinese social media platforms
-                </h1>
+                </h3>
             </div>
+        </section>
             <section class="experienceright">
                 <div class="ex2017">
-                    <h1>
+                    <h3>
                         2017: First E-commerce online store in the USA
-                    </h1>
+                    </h3>
                 </div>
             </section>
             <section class="experienceleft">
                 <div class="ex2018">
-                    <h1>
+                    <h3>
                         2018: Learn to become a Web Developer
-                    </h1>
+                    </h3>
                 </div>
             </section>
         </section>
@@ -209,6 +239,8 @@
             <div class="contactpic"></div>
         </section>
     </section>
+        <script src="./main.js"></script>
+
 </body>
 
 <footer>
